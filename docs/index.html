@@ -1,30 +1,70 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <!-- Set metadata -->
+    <!-- Metadata -->
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport", initial-scale=1.0">
-    <title>Openlibin</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- Styles -->
-    <link rel="stylesheet" type="text/css" href="styles/main.css" />
+    <!-- CSS -->
+    <link href="styles/tailwind.css" rel="stylesheet" />
 
-    <!-- Import fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto&family=Urbanist:ital,wght@0,100;0,300;0,400;0,700;1,500&display=swap"
-      rel="stylesheet"
-    />
+    <!-- ... -->
   </head>
-  <body>
-			<!-- Start navbar -->
-      <nav>
-        <div class='navbar-logo'>
-            <h1 class='brand-logo'>Openlibin</h1>
+  <body class="dark:bg-gray-800">
+    <div class="my-8">
+      <div
+        class="
+          dark:bg-gray-600
+          max-w-md
+          mx-auto
+          bg-white
+          rounded-xl
+          shadow-md
+          overflow-hidden
+          md:max-w-2xl
+        "
+      >
+        <div class="md:flex">
+          <div class="md:flex-shrink-0">
+            <img
+              class="h-48 w-full object-cover md:h-full md:w-48"
+              src="https://picsum.photos/536/354"
+              alt="Man looking at item at a store"
+            />
+          </div>
+          <div class="p-8">
+            <div
+              class="
+                uppercase
+                tracking-wide
+                text-sm text-indigo-500
+                font-semibold
+              "
+            >
+              Case study
+            </div>
+            <a
+              href="#"
+              class="
+                block
+                mt-1
+                text-lg
+                leading-tight
+                font-medium
+                text-black
+                hover:underline
+              "
+              >Finding customers for your new business</a
+            >
+            <p class="mt-2 text-gray-500">
+              Getting a new business off the ground is a lot of hard work. Here
+              are five ideas you can use to find your first customers.
+            </p>
+          </div>
         </div>
-      </nav>
-			<!-- Navbar end -->
+      </div>
+    </div>
+
+    <!-- ... -->
   </body>
 </html>
