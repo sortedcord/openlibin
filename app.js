@@ -18,22 +18,22 @@ const app = Vue.createApp({
           art: "https://picsum.photos/527/354",
         },
         {
-          genre: 'Biography',
-          title: "Herzen steigt versuch unbestimmten.",
+          genre: 'Guten',
+          title: "Diam lorem nonumy kasd et.",
           description:
             "Von von träume ich gerne oft helle du, der komm schwester ort gedanken, verwundert mund ort gefärbt ich ja dich,.",
           art: "https://picsum.photos/527/354",
         },
         {
-          genre: 'Biography',
-          title: "Herzen steigt versuch unbestimmten.",
+          genre: 'Spezial',
+          title: "Rebum ipsum rebum ea dolores..",
           description:
             "Von von träume ich gerne oft helle du, der komm schwester ort gedanken, verwundert mund ort gefärbt ich ja dich,.",
           art: "https://picsum.photos/527/354",
         },
         {
-          genre: 'Biography',
-          title: "Herzen steigt versuch unbestimmten.",
+          genre: 'Later',
+          title: "Voluptua sadipscing dolor accusam consetetur.",
           description:
             "Von von träume ich gerne oft helle du, der komm schwester ort gedanken, verwundert mund ort gefärbt ich ja dich,.",
           art: "https://picsum.photos/527/354",
