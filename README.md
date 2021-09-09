@@ -1,2 +1,2 @@
 # openlibin
-An open source library for Indian resources
+An open source library (self) project to demonstrate vue.
