@@ -3,11 +3,13 @@ module.exports = {
     './src/**/*.html',
     './src/**/*.js',
   ],
-  darkMode: 'media', // or 'media' or 'class'
+  darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {},
   },
   variants: {
+    width: ["responsive", "hover", "focus"],
+    height: ["responsive", "hover", "focus"],
     extend: {},
   },
   plugins: [],
