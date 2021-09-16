@@ -30,7 +30,7 @@
         "
       >
         <div v-for="book in books" v-show="book['title'].toLowerCase().includes(search)">
-          <div class="flex flex-row md:flex-col bg-gray-700 mx-4 my-3 rounded-md">
+          <div class="flex flex-row md:flex-col bg-gray-700 mx-4 my-3 rounded-md transition hover:bg-gray-600 hover:shadow-xl">
             <div class="flex-none w-48 relative">
               <img :src="book['art']" alt="" class="rounded-md absolute inset-0 w-full h-full object-cover" />
             </div>
@@ -50,7 +50,7 @@
               </p>
               <div class="flex space-x-3 mt-4 text-sm font-medium">
                 <div class="flex-auto flex space-x-3">
-                  <button class="w-1/3 flex items-center justify-center rounded-md  py-2 text-white border border-1 border-gray-400 transition hover:bg-gray-600" type="submit">Read book</button>
+                  <button class="w-1/3 flex items-center justify-center rounded-md  py-2 text-white border border-1 border-gray-400 transition hover:bg-gray-500" type="submit">Read book</button>
                 </div>
               </div>
             </form>
